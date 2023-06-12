@@ -10,7 +10,7 @@ weight = 1
 
 #### Introduction
 
-This accelerator will show you how to web performance modeling on your Snowplow data. The core web vitals are the most essential metrics you can measure and monitor how your website performs. Improving the performance can have a dramatic impact on how your users view it and interact with it with the potential to maximise your revenue.
+This accelerator will show you how to track and model raw `core web vital` events so that you can monitor your website's performance via the most essential metrics. Improving the web performance can have a dramatic impact on how your users view and interact with your website with the potential to maximise your revenue.
 
 !['Potential impact'](images/impact.png?height=15pc)
 
