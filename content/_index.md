@@ -12,22 +12,22 @@ weight = 1
 
 This accelerator will show you how to track and model raw `core web vital` events so that you can monitor your website's performance via the most essential metrics. Improving the web performance can have a dramatic impact on how your users view and interact with your website with the potential to maximise your revenue.
 
-!['Potential impact'](images/impact.png?height=15pc)
+!['Potential impact'](images/impact.png?height=20pc)
 
 Here you will learn to:
 
-* Model and Visualise Snowplow data
-- using the [snowplow_web](https://hub.getdbt.com/snowplow/snowplow_web/latest/) dbt package
-- using our sample data (no need to have a working pipeline)
-* Set-up Snowplow Tracking and Enrichment to prepare your data sources
-* Apply what you have learned on your own pipeline to gain insights
+- Model and Visualise Snowplow data
+    - using the [snowplow_web](https://hub.getdbt.com/snowplow/snowplow_web/latest/) dbt package
+    - using our sample data (no need to have a working pipeline)
+- Set-up Snowplow Tracking and Enrichment to prepare your data sources
+- Apply what you have learned on your own pipeline to gain insights
 ***
 
 #### Who is this guide for?
 
 Data practitioners who would like to:
-- easily capture [core web vitals](https://web.dev/vitals/) on their website using the Javascript tracker
-- report and visualise the proportion of vitals [within target](https://web.dev/vitals/#core-web-vitals) using **Tableau**
+- Easily capture [core web vitals](https://web.dev/vitals/) on their website using the Javascript tracker
+- Report and visualise the proportion of vitals [within target](https://web.dev/vitals/#core-web-vitals) using **Tableau**
 
 ***
 
@@ -50,9 +50,9 @@ axisFormat %H:%M
 section 1. Upload
 30min :upload, 00-00, 30m
 section 2. Model
-1h :model, after upload, 2h
+1h :model, after upload, 1h
 section 3. Visualise
-2h :visualise, after model, 10m
+2h :visualise, after model, 2h
 section 4. Track
 1h :track, after visualise, 1h
 section 5. Enrich

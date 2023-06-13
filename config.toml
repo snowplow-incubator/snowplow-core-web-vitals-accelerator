@@ -1,6 +1,6 @@
-title = "{{ACCELERATOR TEMPLATE}}"
-baseURL = "https://docs.snowplow.io/accelerators/{{YOUR BASE URL}}/"
+title = "Web Performance"
+baseURL = "https://docs.snowplow.io/accelerators/web_performance/"
 
 [params]
-  description = "{{ACCELERATOR DESCRIPTION}}"
-  author = "{{AUTHOR NAMES}}"
+  description = "Tutorial for setting up web performance tracking for your website"
+  author = "Agness Kiss, Peter Perlepes"
