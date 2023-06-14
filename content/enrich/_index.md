@@ -19,3 +19,5 @@ flowchart LR
     style id5 fill:#f5f5f5,stroke:#333,stroke-width:1px
     style id6 fill:#f5f5f5,stroke:#333,stroke-width:1px
 {{</mermaid >}}
+
+Snowplow offers a large number of enrichments that can be used to enhance your event data. In this chapter we showcase the specific enrichments which you need or are advised to enable in your pipeline for most effective web performance data collection and analysis.
