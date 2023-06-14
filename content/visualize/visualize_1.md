@@ -4,51 +4,39 @@ weight = 1
 post = ""
 +++
 
+#### Introduction
 
-### Introduction
+Now that you have modelled data you would probably want to see the results in a visual way as well to be able to easily identify any performance issues with your website.
 
-Now that you have modelled data you would probably want to see the results in a visual way as well to be able to easily identify any performance issues with your website. We have created a Tableau workbook to do that, using csvs that were exported from the derived core web vitals tables (`core_web_vitals`, `core_web_vital_measurements`) as the data source. We used the same data source as the sample data provided so all you have to do in this section is to open it up and have a look at the visualizations to get inspiration of what you can build.
+We have created a Tableau workbook to snowcase how you could do that, using csvs that were exported from the derived core web vitals tables (`core_web_vitals`, `core_web_vital_measurements`) with [this sample csv](add link to S3) as the data source.
 
-### Accessing the sample Tableau workbook
+If you would like to see your own modelled data you can simply change the data sources and then you will be able to look at the visualizations to get inspiration of what you can build with your connector of choice (based on the warehouse you have).
+
+#### Accessing the sample Tableau workbook
 
 You can download the file from here:
 
-Once you have the file locally, you can open it in serveral ways, opening it in Tableau Public, Tableau Reader (free) or uploading it to Tableau Online if you have access.
+Once you have the file locally, you can open it in serveral ways: with Tableau Public, Tableau Reader (free) or by uploading it to Tableau Online, if you have access.
 
-### Visualizations
+#### Change the dashboard data source
 
-#### Core Web Vitals
+1. Export the `derived.snowplow_web_vitals` and `snowplow_web_vital_measurements` as csv with your sql editor of choice.
 
-Main dashboard with the most important metrics: LCP, FID, CLS and TTFB with most important dimensions such as period, device, top 10 most popular pages and location.
+2. In Tableau Public or Tableu Online open the sample twbx file and unhide one of the worksheets (E.g. Go to Core Web Vitals dashboard and select LCP by period and device then right click and uncheck the `Hide` box)
 
-![Core Web Vitals](../images/1.png)
+3. Go to `Data/ New Data Source` select `text file` and navigate to the downloaded `snowplow_web_vital_measurements.csv`. Go back to the unhidden worksheet. Now you can see the new data source added at the top left corner.
 
-#### Low Performing URLs
+4. Select it and make the following changes:
 
-Dashboard focusing on the worst performing URLs.
+ - change the `Time Period` to `Date and Time` by clicking on the `Abc` icon in front of its name
+ - create set by right-clicking on `Device Class` then choose `Create / Set`, tick `all` and tick the box `exclude` to exlude results with `all` in the name, click ok
 
-![Low Performing URLs](../images/2.png)
+5. Go to `Data / Replace data source` and select the new `snowplow_web_vital_measurements` file to replace `snowplow_web_vital_measurements_sample` in the `Replacement` section.
 
-#### Core Web Vitals by Period
+6. You can right click and `Close` the original `snowplow_web_vital_measurements_sample` data connection from the upper `Data` section of the page.
 
-Core Web Vital visuals tracked across time.
+7. Add and replace the `snowplow_web_vitals_sample` as well. For that you do not need any changes to the fields. (Step 3, 5, 6 are needed again)
 
-![LCore Web Vitals by Periods](../images/3.png)
+You should have a working dashboard with your own data! Feel free to pick and choose visualizations and dashboards to make your custom one.
 
-#### Visits
-
-This dashboard focuses on the number of page visits and classifies them according to value and result.
-
-![Visits](../images/4.png)
-
-#### Browser Performance
-
-These visuals show the percentage of good / needs improvement / poor results across web browsers.
-
-![Browser Performance](../images/5.png)
-
-#### Core Web Vitals v2
-
-Another, slightly less dense version of the overview.
-
-![Core Web Vitals v2](../images/6.png)
+![Chrome Extension](../images/1.png?width=50pc)

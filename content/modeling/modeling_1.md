@@ -5,7 +5,7 @@ post = ""
 +++
 
 
-#### **Step 1:** Enable the optional core web vitals module
+#### **Step 1:** Enable the optional Core web vitals module
 As the [advanced-analytics-for-web accelerator](https://docs.snowplow.io/accelerators/web/) is a prerequisite, it is assumed that you already have a dbt project set-up to process basic web events.
 
 To enable the optional `core web vitals` module, you must add the following code snippet to your dbt_project.yml file:
@@ -19,9 +19,9 @@ models:
 
 #### **Step 2:** Change optional parameters
 
-By default, following industry standard practice, the core web vitals are evaluated against the 75 percentile value of all pageviews.
+By default, following industry standard practice, the core web vitals are evaluated against the 75 percentile value of all pageviews. You can use the `snowplow__cwv_percentile` variable to overwrite this logic.
 
-The measurements are executed in a drop and recompute fashion to fit BI purposes and would always show the last 28 days data.
+The measurements are executed in a drop and recompute fashion to fit BI tool purposes and would always show the last 28 days data by default which can be modified through a variable in the model (`snowplow__cwv_days_to_measure`).
 
 To change either of these default values you can modify the relevant variable in your dbt_project.yml file like so:
 
@@ -33,11 +33,22 @@ models:
     snowplow__cwv_percentile: 75
 ```
 
-{{%/* notice warning */%}}
-Please make sure your `snowplow__backfill_limit_days` variable is not less than the `snowplow__cwv_days_to_measure`. The package will warn you if this happens though.
-{{%/* /notice */%}}
+### **Step 3:** Override the module specific macros
 
-#### **Step 3:** Run the package
+There are configurable default sql scripts that you might want to overwrite (mainly the one defined in `core_web_vital_page_groups()` macro). Please take a look at them and, if needed, copy the original sql file from the macros within the dbt_packages folder (which should appear after you executed `dbt deps`), add it to the macros of your own dbt project without changing the name. Update the sql to your preference and save the file.
+
+{{% notice info %}}
+
+For information about overriding our macros, see [here](/docs/modeling-your-data/modeling-your-data-with-dbt/dbt-advanced-usage/dbt-advanced-operation/index.md#overriding-macros)
+
+{{% /notice %}}
+
+- The `core_web_vital_page_groups()` macro  is used to let the user classify their urls to specific page groups. It returns the sql to provide the classification expected in the form of case when statements. ([source](https://github.com/snowplow/dbt-snowplow-web/blob/main/macros/core_web_vital_page_groups.sql))
+
+- The `core_web_vital_results_query()` macro is used to let the user classify the tresholds to be applied for the measurements. It returns the sql to provide the logic for the evaluation based on user defined tresholds (expected in the form of case when statements). Please make sure you set the results you would like the measurements to pass to `good` or align it with the `macro_core_web_vital_pass_query()` macro. ([source](https://github.com/snowplow/dbt-snowplow-web/blob/main/macros/core_web_vital_results_query.sql))
+- The `core_web_vital_pass_query()` macro is used to let the user define what counts as the overall pass condition for the core web vital measurements. ([source](https://github.com/snowplow/dbt-snowplow-web/blob/main/macros/core_web_vital_pass_query.sql))
+
+#### **Step 4:** Run the package
 
 If this is your first time processing the snowplow_web package then you can run the package the recommended way either through your CLI or from within dbt Cloud with the following command:
 
