@@ -27,7 +27,7 @@ That is also the reason why we consider this accelerator a basic step to reachin
 
 #### Website Performance Dashboard
 
-To gain the most value out of web performance data, we recommend setting up a dashboard so that you can monitor the progress and spot any changes to your website's accessability. We have included a sample dashboard that you can gain inspirations from as part of this accelerator (see `Visualize` chapter). Let's go through the individual sections so that you can have a deeper understanding of some of the suggested visualizations you can use in your own monitoring dashboard.
+To gain the most value out of web performance data, we recommend setting up a dashboard so that you can monitor the progress and spot any changes to your website's accessibility. We have included a sample dashboard that you can gain inspirations from as part of this accelerator (see `Visualize` chapter). Let's go through the individual sections so that you can have a deeper understanding of some of the suggested visualizations you can use in your own monitoring dashboard.
 
 ##### Core Web Vitals
 

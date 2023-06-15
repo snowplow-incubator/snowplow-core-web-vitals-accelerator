@@ -10,7 +10,7 @@ weight = 1
 
 #### Introduction
 
-This accelerator will show you how to track and model raw `core web vital` events so that you can monitor your website's performance via the most essential metrics. Improving the web performance can have a dramatic impact on how your users view and interact with your website with the potential to maximise your revenue.
+This accelerator will show you how to track and model raw `core web vital` events so that you can monitor your website's performance via the most essential metrics. Improving the web performance can have a dramatic impact on how your users view and interact with your website with the potential to maximize your revenue.
 
 !['Potential impact'](images/impact.png?height=30pc)
 
