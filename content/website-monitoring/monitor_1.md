@@ -4,14 +4,14 @@ weight = 1
 post = ""
 +++
 
-In this section, we are going to try and give you a brief but important overview of why we believe web performance data collection and monitoring is imperative to successful online e-business efforts.
+In this section, we are going give you a brief but important overview of why we believe web performance data collection and monitoring is imperative to successful online e-business efforts.
 
 #### Why care about Web Performance ?
 
 Business success for a conversion-oriented web property, commerce or not, is undoubtedly dependent on delivering a great experience to the users interested in its offering. When loading a webpage, either on mobile or desktop, the perceived experience of a user depends on a few standard factors. These factors and their corresponding measurements converge into few categories as such:
-- **Perceived load speed**: how quickly a page can load and render all of its visual elements to the screen.
-- **Load responsiveness**: how quickly a page can load and execute any required JavaScript code in order for components to respond quickly to user interaction.
-- **Runtime responsiveness**: after page load, how quickly can the page respond to user interaction.
+- **Perceived load speed**: how quickly a page can load and render all of its visual elements to the screen
+- **Load responsiveness**: how quickly a page can load and execute any required JavaScript code in order for components to respond quickly to user interaction
+- **Runtime responsiveness**: after page load, how quickly can the page respond to user interaction
 - **Visual stability**: do elements on the page shift in ways that users don't expect and potentially interfere with their interactions?
 - **Smoothness**: do transitions and animations render at a consistent frame rate and flow fluidly from one state to the next?
 

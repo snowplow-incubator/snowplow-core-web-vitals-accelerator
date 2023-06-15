@@ -46,6 +46,7 @@ For information about overriding our macros, see [here](/docs/modeling-your-data
 - The `core_web_vital_page_groups()` macro  is used to let the user classify their urls to specific page groups. It returns the sql to provide the classification expected in the form of case when statements. ([source](https://github.com/snowplow/dbt-snowplow-web/blob/main/macros/core_web_vital_page_groups.sql))
 
 - The `core_web_vital_results_query()` macro is used to let the user classify the tresholds to be applied for the measurements. It returns the sql to provide the logic for the evaluation based on user defined tresholds (expected in the form of case when statements). Please make sure you set the results you would like the measurements to pass to `good` or align it with the `macro_core_web_vital_pass_query()` macro. ([source](https://github.com/snowplow/dbt-snowplow-web/blob/main/macros/core_web_vital_results_query.sql))
+
 - The `core_web_vital_pass_query()` macro is used to let the user define what counts as the overall pass condition for the core web vital measurements. ([source](https://github.com/snowplow/dbt-snowplow-web/blob/main/macros/core_web_vital_pass_query.sql))
 
 #### **Step 4:** Run the package

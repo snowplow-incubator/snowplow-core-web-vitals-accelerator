@@ -18,7 +18,7 @@ Here you will learn to:
 
 - Learn how you can monitor your website's performance
 - Set-up Snowplow Tracking and Enrichment to prepare your data sources
-- Model and Visualise Snowplow data
+- Model Snowplow data
     - using the `core web vitals` optional module of the [snowplow_web](https://hub.getdbt.com/snowplow/snowplow_web/latest/) dbt package
 - See it all come together in a Tableau dashboard
 ***

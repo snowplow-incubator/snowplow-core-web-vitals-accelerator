@@ -12,7 +12,7 @@ YAUAA (Yet Another User Agent Analyzer) enrichment is a powerful user agent pars
 
 It uses the [YAUAA API](https://yauaa.basjes.nl/) to parse and analyze all user agent information of an HTTP request and extract as many relevant information as possible about the user's device and browser, like for instance the device class (Phone, Tablet, etc.).
 
-The YAUAA enrichment is required in the web performance measurment context in order to be able to properly segment your data based on device, user agent name, version and more.
+The YAUAA enrichment is required in the web performance measurement context in order to be able to properly segment your data based on device, user agent name, version and more.
 
 ### IAB Spiders & Robots
 
@@ -22,4 +22,4 @@ Spiders & bots are sometimes considered a necessary evil of the web. We want sea
 
 The Interactive Advertising Bureau (IAB) is an advertising business organization that develops industry standards, conducts research, and provides legal support for the online advertising industry. Their internationally recognized list of spiders and bots is regularly maintained to try and identify the IP addresses of known bots and spiders.
 
-The IAB enrichment should be used to filter out web performance measurements coming from known bots and spiders that can add anomalies and noise to the analysis process. 
+The IAB enrichment should be used to filter out web performance measurements coming from known bots and spiders that can add anomalies and noise to the analysis process.
