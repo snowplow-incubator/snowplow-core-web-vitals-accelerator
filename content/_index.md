@@ -33,7 +33,7 @@ Data practitioners who would like to:
 
 #### What you will learn
 
-In an estimated minimum of a day (~6.5 hours) you can achieve the following:
+In an estimated minimum of a day (~5.5 hours) you can achieve the following:
 
 - **Monitor -** Learn why and how you can monitor your website's performance
 - **Track -** Set-up and deploy tracking needed for your website performance data
@@ -58,7 +58,7 @@ section 4. Model
 section 5. Visualize
 1h :visualize, after model, 1h
 section 6. Next steps
-2h :next steps, after visualize, 2h
+1h :next steps, after visualize, 1h
 
 {{</mermaid >}}
 
