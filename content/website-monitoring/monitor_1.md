@@ -8,7 +8,7 @@ In this section, we are going give you a brief, but important, overview of why w
 
 #### Why care about Web Performance ?
 
-Business success for a conversion-oriented web property, commerce or not, is undoubtedly dependent on delivering a great experience to the users interested in its offering. When loading a webpage, either on mobile or desktop, the perceived experience of a user depends on a few standard factors. These factors and their corresponding measurements converge into few categories as such:
+Business success for a conversion-oriented web property, commerce or not, is undoubtedly dependent on delivering a great experience to the users interested in its offering. When loading a webpage, either on mobile or desktop, the perceived experience of a user depends on a few standard factors. These factors and their corresponding measurements converge into a few categories:
 - **Perceived load speed**: how quickly a page can load and render all of its visual elements to the screen
 - **Load responsiveness**: how quickly a page can load and execute any required JavaScript code in order for components to respond quickly to user interaction
 - **Runtime responsiveness**: after page load, how quickly can the page respond to user interaction
