@@ -14,6 +14,17 @@ It uses the [YAUAA API](https://yauaa.basjes.nl/) to parse and analyze all user 
 
 The YAUAA enrichment is required in the web performance measurement context in order to be able to properly segment your data based on device, user agent name, version and more.
 
+#### Enabling it in BDP
+
+For BDP users, you can navigate under your selected pipeline **Enrichments** section and find the YAUAA enrichment. Click on the enrichment for instructions on how to enable it or contact us.
+
+![YAUAA BDP](../images/yauaa_bdp.png?classes=shadow)
+
+
+#### Open source
+
+For Snowplow open source users, you can refer to the enrichment [documentation](https://docs.snowplow.io/docs/enriching-your-data/available-enrichments/yauaa-enrichment/).
+
 ### IAB Spiders & Robots
 
 The IAB Spiders & Robots enrichment uses the [IAB/ABC International Spiders and Bots List](https://iabtechlab.com/software/iababc-international-spiders-and-bots-list/) to determine whether an event was produced by a user or a robot/spider based on its’ IP address and user agent.
@@ -23,3 +34,14 @@ Spiders & bots are sometimes considered a necessary evil of the web. We want sea
 The Interactive Advertising Bureau (IAB) is an advertising business organization that develops industry standards, conducts research, and provides legal support for the online advertising industry. Their internationally recognized list of spiders and bots is regularly maintained to try and identify the IP addresses of known bots and spiders.
 
 The IAB enrichment should be used to filter out web performance measurements coming from known bots and spiders that can add anomalies and noise to the analysis process.
+
+#### Enabling it in BDP
+
+For BDP users, you can navigate under your selected pipeline **Enrichments** section and find the IAB enrichment. Click on the enrichment for instructions on how to enable it or contact us.
+
+![IAB BDP](../images/iab_bdp.png?classes=shadow)
+
+
+#### Open source
+
+For Snowplow open source users, you can refer to the enrichment [documentation](https://docs.snowplow.io/docs/enriching-your-data/available-enrichments/iab-enrichment/).
