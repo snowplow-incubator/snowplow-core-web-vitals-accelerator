@@ -12,8 +12,6 @@ weight = 1
 
 This accelerator will show you how to track and model raw [core web vital](https://web.dev/vitals/) events so that you can monitor your website's performance via the most essential metrics. Improving the web performance can have a dramatic impact on how your users view and interact with your website with the potential to maximize your revenue.
 
-![Dashboard](../images/1.png?width=50pc)
-
 Here you will learn to:
 
 - Learn how you can monitor your website's performance
@@ -38,7 +36,7 @@ In an estimated minimum of a day (~5.5 hours) you can achieve the following:
 - **Monitor -** Learn why and how you can monitor your website's performance
 - **Track -** Set-up and deploy tracking needed for your website performance data
 - **Enrich -** Add an enrichment to your data
-- **Model -** Configure and run the [core web vitals]9https://docs.snowplow.io/docs/modeling-your-data/modeling-your-data-with-dbt/dbt-models/dbt-web-data-model//core-web-vitals-module/) module of the `snowplow-web` data model
+- **Model -** Configure and run the [core web vitals(https://docs.snowplow.io/docs/modeling-your-data/modeling-your-data-with-dbt/dbt-models/dbt-web-data-model//core-web-vitals-module/) module of the `snowplow-web` data model
 - **Visualize -** Use the Tableau twbx template (csv based!) to gain insight into your own website's health
 - **Next steps -** Gain more in-depth knowledge on web performance with additional metrics
 
@@ -76,3 +74,5 @@ section 6. Next steps
 - dbt CLI installed / dbt Cloud account available
 - New dbt project created and configured
 - Snowflake, Databricks or BigQuery account and a user with access to create schemas and tables
+
+{{< tableau name="SnowplowCoreWebVitals/CoreWebVitals?publish=yes" />}}
