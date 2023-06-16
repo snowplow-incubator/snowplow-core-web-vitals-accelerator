@@ -39,6 +39,4 @@ Once you have the file locally, you can open it in several ways: with Tableau Pu
 
 You should have a working dashboard with your own data! Feel free to pick and choose visualizations and dashboards to make your custom one.
 
-![Dashboard](../images/1.png?width=50pc)
-
 {{< tableau name="SnowplowCoreWebVitals/CoreWebVitals?publish=yes" />}}
