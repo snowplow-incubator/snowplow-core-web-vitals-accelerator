@@ -21,7 +21,7 @@ All of the above types of experience characteristics can be quantified in a best
 
 One initiative which brought some attention into the website experience space is Google’s [Core Web Vitals](https://web.dev/vitals/). Core Web Vitals are described as _quality signals that are essential to delivering a great user experience on the web_.
 
-These metrics are for quite some time now officially a factor for the Google algorithm for ranking pages in their search results. This fact automatically makes any Core Web Vital metrics, almost directly correlated to increased visitation and engagement on your site.
+These metrics have, for quite some time now, been officially a factor for the Google algorithm for ranking pages in their search results. This fact makes any Core Web Vital metrics almost directly correlated to increased visitation and engagement on your site.
 
 That is also the reason why we consider this accelerator a basic step to reaching the first milestone in monitoring these important site metrics.
 
