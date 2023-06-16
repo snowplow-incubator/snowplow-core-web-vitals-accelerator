@@ -4,7 +4,7 @@ weight = 1
 post = ""
 +++
 
-In this section, we are going give you a brief but important overview of why we believe web performance data collection and monitoring is imperative to successful online e-business efforts.
+In this section, we are going give you a brief, but important, overview of why we believe web performance data collection and monitoring is imperative to successful online business efforts.
 
 #### Why care about Web Performance ?
 
