@@ -31,37 +31,37 @@ To gain the most value out of web performance data, we recommend setting up a da
 
 ##### Core Web Vitals
 
-Main dashboard with the most important metrics: LCP, FID, CLS and TTFB with most important dimensions such as period, device, top 10 most popular pages and location.
+Main dashboard with the most important metrics: LCP, FID, CLS and TTFB with most important dimensions such as period, device, top 10 most popular pages and location. This could be used to have an understanding about the overall performance of your website in the given period (28 days by default)
 
 ![Core Web Vitals](../images/1.png?width=40pc)
 
 ##### Low Performing URLs
 
-Dashboard focusing on the worst performing URLs.
+Dashboard focusing on the worst performing URLs. This should help focus on the areas to improve.
 
 ![Low Performing URLs](../images/2.png?width=40pc)
 
 ##### Core Web Vitals by Period
 
-Core Web Vital visuals tracked across time.
+Core Web Vital visuals tracked across time. You can monitor the health of your website and notice any unexpected changes or check whether attempts at improving the performance worked.
 
-![LCore Web Vitals by Periods](../images/3.png?width=40pc)
+![Core Web Vitals by Periods](../images/3.png?width=40pc)
 
 ##### Visits
 
-This dashboard focuses on the number of page visits and classifies them according to value and result.
+This dashboard focuses on the number of page visits and classifies them according to value and result. This could give a more in-depth understanding about the overall results.
 
 ![Visits](../images/4.png?width=40pc)
 
 ##### Browser Performance
 
-These visuals show the percentage of good / needs improvement / poor results across web browsers.
+These visuals show the percentage of good / needs improvement / poor results across web browsers to see if either of them performs worse.
 
 ![Browser Performance](../images/5.png?width=40pc)
 
 ##### Core Web Vitals v2
 
-Another, slightly less dense version of the overview.
+Another variation of the overview for understanding the overall performance of your website.
 
 ![Core Web Vitals v2](../images/6.png?width=40pc)
 

@@ -19,7 +19,7 @@ models:
 
 #### **Step 2:** Change optional parameters
 
-By default, following industry standard practice, the core web vitals are evaluated against the 75 percentile value of all pageviews. You can use the `snowplow__cwv_percentile` variable to overwrite this logic.
+By default, following industry standard practice, the core web vitals are evaluated against the 75th percentile value of all pageviews. You can use the `snowplow__cwv_percentile` variable to overwrite this logic.
 
 The measurements are executed in a drop and recompute fashion to fit BI tool purposes and would always show the last 28 days data by default which can be modified through a variable in the model (`snowplow__cwv_days_to_measure`).
 
@@ -33,7 +33,7 @@ models:
     snowplow__cwv_percentile: 75
 ```
 
-### **Step 3:** Override the module specific macros
+#### **Step 3:** Override the module specific macros
 
 There are configurable default sql scripts that you might want to overwrite (mainly the one defined in `core_web_vital_page_groups()` macro). Please take a look at them and, if needed, copy the original sql file from the macros within the dbt_packages folder (which should appear after you executed `dbt deps`), add it to the macros of your own dbt project without changing the name. Update the sql to your preference and save the file.
 
@@ -90,6 +90,4 @@ The following models will be generated:
 
 - **snowplow_web_vital_measurements**: Drop and recompute table to use for visualizations that takes core web vital measurements at the user specified percentile point (defaulted to 75).
 
-
-
-
+For more information about the derived tables (e.g. columns and definitions) check out the optional modules/core_web_vitals section of the related [dbt docs](https://snowplow.github.io/dbt-snowplow-web/#!/overview/snowplow_web).

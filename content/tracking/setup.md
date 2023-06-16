@@ -131,3 +131,12 @@ Now the tracker has everything required to start collecting web performance data
 ### The `web_vitals` event
 
 After adding the web-vitals plugin to your setup, the tracker will send a `web_vitals` event every time a user navigates away from one of your pages. This event will include as accurate information about web vital metrics as possible. To see which data are collected in this event, you can browse the relevant [iglu schema](https://github.com/snowplow/iglu-central/blob/master/schemas/com.snowplowanalytics.snowplow/web_vitals/jsonschema/).
+
+This will collect the following key metrics:
+
+Cumulative layout shift (CLS)
+First input delay (FID)
+Largest contentful paint (LCP)
+First contentful paint (FCP)
+Interaction to next paint (INP)
+Time to first byte (TTFB)

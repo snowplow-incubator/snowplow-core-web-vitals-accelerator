@@ -26,5 +26,6 @@ Once set-up, you will be able to send web performance data to your Snowplow pipe
 
 {{% notice note %}}
 Currently the web performance data collection methods and metrics are more fit towards multi-page applications. For single-page applications (_SPAs_), the required measurements will need to be refined in a different way.
-**If you have questions on how single-page application web performance metrics can be measured and collected, you can reach out to us!**
+**If you have questions on how single-page application web performance metrics can be measured and collected, you can reach out to us on [Discourse](https://discourse.snowplow.io/) or [Zendesk](https://snowplow.zendesk.com/) if you are on BDP cloud!**
+
 {{% /notice %}}

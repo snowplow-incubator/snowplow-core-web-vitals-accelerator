@@ -20,7 +20,7 @@ Once you have the file locally, you can open it in several ways: with Tableau Pu
 
 #### Change the dashboard data source
 
-1. Export the `derived.snowplow_web_vitals` and `snowplow_web_vital_measurements` as csv with your sql editor of choice.
+1. Export the `snowplow_web_vitals` and `snowplow_web_vital_measurements` derived tables as csv with your sql editor of choice.
 
 2. In Tableau Public or Tableau Online open the sample twbx file and unhide one of the worksheets (E.g. Go to Core Web Vitals dashboard and select LCP by period and device then right click and uncheck the `Hide` box)
 
@@ -39,4 +39,6 @@ Once you have the file locally, you can open it in several ways: with Tableau Pu
 
 You should have a working dashboard with your own data! Feel free to pick and choose visualizations and dashboards to make your custom one.
 
-![Chrome Extension](../images/1.png?width=50pc)
+![Dashboard](../images/1.png?width=50pc)
+
+{{< tableau name="SnowplowCoreWebVitals/CoreWebVitals?publish=yes" />}}
