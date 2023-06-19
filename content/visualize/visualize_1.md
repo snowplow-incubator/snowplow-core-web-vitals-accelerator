@@ -14,7 +14,10 @@ If you would like to see your own modeled data you can simply change the data so
 
 #### Accessing the sample Tableau workbook
 
-You can download the file from here:
+You can download the file [here](https://snowplow-demo-datasets.s3.eu-central-1.amazonaws.com/Visualization/Snowplow+Core+Web+Vitals+-+demo.twbx).
+
+In case you would need the source csvs, you can access them here:
+[snowplow_web_vital_measurements sample](https://snowplow-demo-datasets.s3.eu-central-1.amazonaws.com/Visualization/snowplow_web_vital_measurements_sample.csv) and [snowplow_web_vitals sample](https://snowplow-demo-datasets.s3.eu-central-1.amazonaws.com/Visualization/snowplow_web_vitals_sample.csv)
 
 Once you have the file locally, you can open it in several ways: with Tableau Public, Tableau Reader (free) or by uploading it to Tableau Online, if you have access.
 
