@@ -1,5 +1,5 @@
-[![Discourse posts][discourse-image]][discourse] 
-[![License][license-image]][license] 
+[![Discourse posts][discourse-image]][discourse]
+[![License][license-image]][license]
 
 ![snowplow-logo](https://raw.githubusercontent.com/snowplow/dbt-snowplow-utils/main/assets/snowplow_logo.png)
 
@@ -46,7 +46,7 @@ If you find a bug, please report an issue on GitHub.
 
 ### Copyright and license
 
-The <YOUR ACCELERATOR HERE> accelerator is Copyright 2022 Snowplow Analytics Ltd.
+The <YOUR ACCELERATOR HERE> accelerator is Copyright 2023 Snowplow Analytics Ltd.
 
 Licensed under the [Apache License, Version 2.0][license] (the "License");
 you may not use this software except in compliance with the License.
