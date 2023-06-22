@@ -8,7 +8,7 @@ post = ""
 
 Now that you have modeled data you would probably want to see the results in a visual way as well to be able to easily identify any performance issues with your website.
 
-We have created a Tableau workbook to showcase how you could do that, using csvs that were exported from the derived core web vitals tables (`core_web_vitals`, `core_web_vital_measurements`) with [this sample csv](add link to S3) as the data source.
+We have created a Tableau workbook to showcase how you could do that, using csvs that were exported from the derived core web vitals tables (`core_web_vitals`, `core_web_vital_measurements`).
 
 If you would like to see your own modeled data you can simply change the data sources and then you will be able to look at the visualizations to get inspiration of what you can build with your connector of choice (based on the warehouse you have).
 
